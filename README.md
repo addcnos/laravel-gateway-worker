@@ -1,21 +1,21 @@
 # Gateway Worker For Laravel/Lumen
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/huangdijia/laravel-gateway-worker.svg?style=flat-square)](https://packagist.org/packages/huangdijia/laravel-gateway-worker)
-[![Total Downloads](https://img.shields.io/packagist/dt/huangdijia/laravel-gateway-worker.svg?style=flat-square)](https://packagist.org/packages/huangdijia/laravel-gateway-worker)
-[![GitHub license](https://img.shields.io/github/license/huangdijia/laravel-gateway-worker)](https://github.com/huangdijia/laravel-gateway-worker)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/addcnos/laravel-gateway-worker.svg?style=flat-square)](https://packagist.org/packages/addcnos/laravel-gateway-worker)
+[![Total Downloads](https://img.shields.io/packagist/dt/addcnos/laravel-gateway-worker.svg?style=flat-square)](https://packagist.org/packages/addcnos/laravel-gateway-worker)
+[![GitHub license](https://img.shields.io/github/license/addcnos/laravel-gateway-worker)](https://github.com/addcnos/laravel-gateway-worker)
 
 ## Installation
 
 ### Laravel
 
 ~~~bash
-composer require huangdijia/laravel-gateway-worker
+composer require addcnos/laravel-gateway-worker
 ~~~
 
 publish
 
 ~~~bash
-php artisan vendor:publish --provider="Huangdijia\GatewayWorker\GatewayWorkerServiceProvider"
+php artisan vendor:publish --provider="Addcnos\GatewayWorker\GatewayWorkerServiceProvider"
 ~~~
 
 ### Lumen
@@ -29,7 +29,7 @@ cp vendor/huangdijia/laravel-gateway-worker/config/gatewayworker.php config
 edit `bootstrap/app.php`, add
 
 ~~~php
-$app->register(Huangdijia\GatewayWorker\GatewayWorkerServiceProvider::class);
+$app->register(Addcnos\GatewayWorker\GatewayWorkerServiceProvider::class);
 // ...
 $app->configure('gatewayworker');
 ~~~

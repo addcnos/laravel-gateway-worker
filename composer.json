@@ -1,12 +1,12 @@
 {
-    "name": "huangdijia/laravel-gateway-worker",
+    "name": "addcnos/laravel-gateway-worker",
     "description": "gateway-worker for laravel",
     "type": "library",
     "keywords": [
         "laravel",
         "gateway-worker"
     ],
-    "homepage": "https://github.com/huangdijia/laravel-gateway-worker",
+    "homepage": "https://github.com/addcnos/laravel-gateway-worker",
     "license": "MIT",
     "authors": [{
         "name": "huangdijia",
@@ -21,23 +21,33 @@
         "workerman/workerman": "^3.5"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^0.12",
         "orchestra/testbench": "^4.0"
     },
     "autoload": {
         "psr-4": {
-            "Huangdijia\\GatewayWorker\\": "src/"
+            "Addcnos\\GatewayWorker\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Huangdijia\\GatewayWorker\\Tests\\": "tests/"
+            "Addcnos\\GatewayWorker\\Tests\\": "tests/"
         }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Huangdijia\\GatewayWorker\\GatewayWorkerServiceProvider"
+                "Addcnos\\GatewayWorker\\GatewayWorkerServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "cs-fix": "php-cs-fixer fix $1",
+        "analyse": "phpstan analyse --memory-limit 300M -l 0 -c phpstan.neon ./src ./config"
     }
 }

@@ -1,13 +1,31 @@
 <?php
+/**
+ * This file is part of addcnos/laravel-gateway-worker.
+ *
+ * @link     https://code.addcn.com/addcnos/laravel-gateway-worker
+ * @document https://code.addcn.com/addcnos/laravel-gateway-worker/blob/1.x/README.md
+ * @contact  huangdijia@gmail.com
+ * @license  https://code.addcn.com/addcnos/laravel-gateway-worker/blob/1.x/LICENSE
+ */
+namespace Addcnos\GatewayWorker\Tests;
 
-namespace Huangdijia\GatewayWorker\Tests;
-
+/**
+ * @internal
+ * @coversNothing
+ */
 class TestCase extends \Orchestra\Testbench\TestCase
 {
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        // Your code here
+    }
+
     protected function getPackageProviders($app)
     {
         return [
-            \Huangdijia\GatewayWorker\GatewayWorkerServiceProvider::class,
+            \Addcnos\GatewayWorker\GatewayWorkerServiceProvider::class,
         ];
     }
 
@@ -16,13 +34,6 @@ class TestCase extends \Orchestra\Testbench\TestCase
         return [
             // 'Acme' => 'Acme\Facade',
         ];
-    }
-
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        // Your code here
     }
 
     protected function getEnvironmentSetUp($app)
