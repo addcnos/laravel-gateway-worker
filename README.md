@@ -23,7 +23,7 @@ php artisan vendor:publish --provider="Addcnos\GatewayWorker\GatewayWorkerServic
 copy config
 
 ~~~bash
-cp vendor/huangdijia/laravel-gateway-worker/config/gatewayworker.php config
+cp vendor/addcnos/laravel-gateway-worker/config/gatewayworker.php config
 ~~~
 
 edit `bootstrap/app.php`, add
