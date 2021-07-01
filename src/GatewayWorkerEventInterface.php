@@ -2,10 +2,10 @@
 /**
  * This file is part of addcnos/laravel-gateway-worker.
  *
- * @link     https://code.addcn.com/addcnos/laravel-gateway-worker
- * @document https://code.addcn.com/addcnos/laravel-gateway-worker/blob/1.x/README.md
+ * @link     https://github.com/addcnos/laravel-gateway-worker
+ * @document https://github.com/addcnos/laravel-gateway-worker/blob/1.x/README.md
  * @contact  huangdijia@gmail.com
- * @license  https://code.addcn.com/addcnos/laravel-gateway-worker/blob/1.x/LICENSE
+ * @license  https://github.com/addcnos/laravel-gateway-worker/blob/1.x/LICENSE
  */
 namespace Addcnos\GatewayWorker;
 
