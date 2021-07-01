@@ -1,6 +1,6 @@
 {
     "name": "addcnos/laravel-gateway-worker",
-    "description": "gateway-worker for laravel",
+    "description": "Gateway-worker for Laravel",
     "type": "library",
     "keywords": [
         "laravel",
