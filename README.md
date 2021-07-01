@@ -1,7 +1,7 @@
 # Gateway Worker For Laravel/Lumen
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/addcnos/laravel-gateway-worker.svg?style=flat-square)](https://packagist.org/packages/addcnos/laravel-gateway-worker)
-[![Total Downloads](https://img.shields.io/packagist/dt/addcnos/laravel-gateway-worker.svg?style=flat-square)](https://packagist.org/packages/addcnos/laravel-gateway-worker)
+[![Latest Stable Version](https://poser.pugx.org/addcnos/laravel-gateway-worker/version.png)](https://packagist.org/packages/addcnos/laravel-gateway-worker)
+[![Total Downloads](https://poser.pugx.org/addcnos/laravel-gateway-worker/d/total.png)](https://packagist.org/packages/addcnos/laravel-gateway-worker)
 [![GitHub license](https://img.shields.io/github/license/addcnos/laravel-gateway-worker)](https://github.com/addcnos/laravel-gateway-worker)
 
 ## Installation
